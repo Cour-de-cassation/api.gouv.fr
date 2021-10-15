@@ -10,7 +10,7 @@
     "dev": "NODE_ENV=development next",
     "test": "jest",
     "start": "next start -p $PORT",
-    "build": "NODE_ENV=production npm run sitemap && next build",
+    "build": "NODE_ENV=production npm run sitemap && next build && next export",
     "lint": "next lint",
     "create-thumbnail": "node node-scripts/createThumbnail.js",
     "check-accessibility": "node ./node-scripts/checkA11y.js",
